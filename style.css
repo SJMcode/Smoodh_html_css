@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter',sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    border: 13px solid blue;
+    height: 50px;
+    width: auto;
+    position: fixed;
+    z-index: 4;
+}
+.header.logo{
+    float: left;
+    margin-left: 0;
+}
+
+.container{
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin:auto; */
+    
+}
+.container .logo img{
+    height: 25px;
+    width: 100%;
+    padding-left: 34px;
+}
+.container nav li{
+    display: inline-block;
+    margin-right: 22px;
+    
+}
+
+.container nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container nav li a:hover{
+color: #e53f27;
+}
+
+nav ul li a i{
+    border-radius: 50%;
+    padding: 8px;
+}
+
+/* nav ul .dropdown{
+    
+    position: fixed;
+    padding: 7px;
+} */
+
+/* .downArrow{
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+}
+.dropmenu1{
+    display: none;
+    position: absolute;
+}
+.downArrow:hover{
+    display: block;
+    background-color: #e53f27;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+} */
+.banner {
+    background-image: url('044427smoodh_top.jpg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 900px;
+}
+
+.rotation{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.energy-banner img{
+    width: 100%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.social-icons{
+width: 100%;
+position: relative;
+left: 20px;
+}
+
+.second-banner img{
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    position: relative;
+    top: -10px;
+} 
+
+.section1{
+   
+    font-size: 14px;
+    font-family: "merivaregular";
+    line-height: 1.2;
+    color: #0a0b27;
+    text-align: left;
+    padding-bottom: 50px 30px;
+    margin-left: 20px;
+    transition: all .5s ease-in;
+}
+
+.section2{
+    font-size: 14px;
+    font-family: "merivaregular";
+    line-height: 2.2em;
+}
+.section3{
+    font-size: 14px;
+    font-family: "merivaregular";
+    line-height: 1.2em;
+}
+.section3 .social-icons{
+    width: 100%;
+    position: relative;
+    left: 0;
+    margin-top: 10px;
+}
+
+.section2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+}
+.section3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+footer{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-bottom: 2rem;
+}
